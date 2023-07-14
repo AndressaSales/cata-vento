@@ -1,0 +1,61 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: black;
+}
+.pont{
+    background-color: darkcyan;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+    box-shadow: 0 0 20px white,
+    0 0 40px white;
+}
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.folha_1{
+    background:linear-gradient(green, purple);
+    width: 90px;
+    height: 90px;
+    border-radius: 50% 0;
+    position: relative;
+    bottom: 25px;
+    left: 50PX;
+    transform: rotate(40deg);
+}
+.folha_2{
+    background: linear-gradient(purple,green);
+    width: 90px;
+    height: 90px;
+    border-radius: 50% 0;
+    transform: rotate(40deg);
+    position: relative;
+    right: 90px;
+    bottom: 105px;
+}
+.folha_3{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(red,orange);
+    border-radius: 50% 0;
+    transform: rotate(130deg);
+    position: relative;
+    bottom: 265px;
+    right: 25px;
+}
+.folha_4{
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(orange,red);
+    border-radius: 50% 0;
+    transform: rotate(130deg);
+    position: relative;
+    bottom: 225px;
+    right: 15px;
+}
